@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output-page-styles.css">
+    <title>Output</title>
+</head>
+<body>
+    <div>
+        <h1>Output</h1>
+        <div id="output-text"></div>
+    </div>
+
+    <!-- <script>
+        // Get the output text from the URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const outputText = urlParams.get('output');
+
+        // Display the output text
+        document.getElementById('output-text').innerText = outputText || 'No output available';
+    </script> -->
+
+    <script>
+        // Function to decode URL parameters
+        const decodeURLParam = (param) => {
+            return decodeURIComponent(param.replace(/\+/g, ' '));
+        };
+
+        // Get the output text from the URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const outputTextParam = urlParams.get('output');
+
+        // Decode the output text parameter
+        const outputText = outputTextParam ? decodeURLParam(outputTextParam) : 'No output available';
+
+
+        // Display the output text
+        document.getElementById('output-text').innerText = outputText;
+    </script>
+</body>
+</html>

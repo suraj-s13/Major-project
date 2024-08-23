@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Major Project</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="bi-back"></i>
+                        <span>AI NEXUS</span>
+                    </a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Creators</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h1 class="text-white text-center">AI NEXUS</h1>
+
+                            <h6 class="text-center">A BLUEPRINT FOR MICROENTERPRISE BRILLIANCE</h6>
+
+                            <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                                <div class="input-group input-group-lg">
+                                    <span class="input-group-text bi-search" id="basic-addon1">
+                                        
+                                    </span>
+
+                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Write Your Queries......." aria-label="Search">
+
+                                    <button type="submit" class="form-control">Search</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="featured-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block bg-white shadow-lg">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Basic text heading</h5>
+
+                                            <p class="mb-0">Basic text</p>
+                                        </div>
+
+                                        
+                                    </div>
+
+                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-block custom-block-overlay">
+                                <div class="d-flex flex-column h-100">
+                                    <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-overlay-text d-flex">
+                                        <div>
+                                            <h5 class="text-white mb-2">heading</h5>
+
+                                            <p class="text-white">text</p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="section-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="faq-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="parallax-icons">
+                        <!-- <img src="/images/1bg.png" class="icon icon-1" alt="Image 1">
+                        <img src="/images/2bg.png" class="icon icon-2" alt="Image 2">
+                        <img src="/images/3bg.png" class="icon icon-3" alt="Image 3">
+                        <img src="/images/4bg.png" class="icon icon-4" alt="Image 4">
+                        <img src="/images/5bg.png" class="icon icon-5" alt="Image 5"> -->
+                        
+                    </div>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script>
+                        $(window).scroll(function() {
+                            var scroll = $(window).scrollTop();
+                            var section2Top = $('#section_2').offset().top;
+                            var section2Bottom = section2Top + $('#section_2').outerHeight();
+                    
+                            // Show icon only in section 2
+                            if (scroll >= section2Top && scroll <= section2Bottom) {
+                                $('.parallax-icons .icon').css({
+                                    'display': 'block',
+                                    'transform': 'translateY(' + ((scroll - section2Top) / 10) + '%)'
+                                });
+                            } else {
+                                $('.parallax-icons .icon').css({
+                                    'display': 'none'
+                                });
+                            }
+                        });
+                    </script>
+                    
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4">ABOUT</h2>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-lg-5 col-12">
+                            <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+                        </div>
+
+                        <div class="col-lg-6 col-12 m-auto">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            AI Nexus transcends being just a name; it embodies the essence of our mission and the impact of our work. our mission lies a commitment to revolutionizing how microenterprises tackle a myriad of challenges.<br/>
+                                            <strong>Challenges microenterprise faces in their ....</strong><br/>
+                                            Through the integration of advanced machine learning techniques, including Natural Language Processing (NLP) and the K-Nearest Neighbors (KNN) algorithm, our platform delivers tailored solutions crafted specifically for microenterprise owners.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="timeline-section section-padding" id="section_3">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4">How does it work?</h1>
+                        </div>
+
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="timeline-container">
+                                <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                                    <div class="list-progress">
+                                        <div class="inner"></div>
+                                    </div>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Step 1</h4>
+
+                                        <p class="text-white">The user submits their problem or query through the website's interface.</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-search"></i>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <h4 class="text-white mb-3">Step 2</h4>
+
+                                        <p class="text-white">The submitted problem is analyzed using advanced machine learning techniques, including Natural Language Processing (NLP) and the K-Nearest Neighbors (KNN) algorithm.</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-bookmark"></i>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Step 3</h4>
+
+                                        <p class="text-white">Based on the analysis, the website provides tailored solutions and offers various AI tools to assist the user in addressing their specific problem or query effectively.</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-book"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="explore-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">Creators</h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">person 1</h5>
+
+                                                            <p class="mb-0">Text</p>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">person 2</h5>
+
+                                                                <p class="mb-0">text</p>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12">
+                                            <div class="custom-block bg-white shadow-lg">
+                                         
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">person 3</h5>
+
+                                                                <p class="mb-0">text</p>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0 mt-4
+                                        ">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">person 4</h5>
+
+                                                                <p class="mb-0">text</p>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact-section section-padding section-bg" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center">
+                            <h2 class="mb-5">Get in touch</h2>
+                        </div>
+
+                        <div class="col-lg-5 col-12 mb-4 mb-lg-0">
+                            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.638476156191!2d77.5343465!3d28.7975489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf51f5aadb701%3A0x39add03eb3926d26!2sSRM%20Institute%20of%20Science%20and%20Technology%20NCR%20Campus!5e0!3m2!1sen!2sin!4v1645925417782!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
+                            <h4 class="mb-3">Details</h4>
+
+                            <p>SRM IST Delhi-NCR Campus Delhi - Meerut Road, Modinagar, Uttar Pradesh 201204</p>
+
+                            <hr>
+
+                            <p class="d-flex align-items-center mb-1">
+                                <span class="me-2">Phone</span>
+
+                                <a href="tel: 7455000291" class="site-footer-link">
+                                    7455000291
+                                </a>
+                            </p>
+
+                            <p class="d-flex align-items-center">
+                                <span class="me-2">Email</span>
+
+                                <a href="registrar@srmist.edu.in" class="site-footer-link">
+                                    registrar@srmist.edu.in
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+<footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2" href="index.html">
+                            <i class="bi-back"></i>
+                            <span>AI NEXUS</span>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <h6 class="site-footer-title mb-3">Resources</h6>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Home</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">How it works</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Creators</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Information</h6>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="tel: 7455000291" class="site-footer-link">
+                                7455000291
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="registrar@srmist.edu.in" class="site-footer-link">
+                                registrar@srmist.edu.in
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
